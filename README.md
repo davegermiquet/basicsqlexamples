@@ -31,5 +31,5 @@ Syntax on how to create a table:
   * All rows:
      * Select * from table;
      * Select * from users;
-       sqlite> Select * from users;
+     * sqlite> Select * from users;
     
