@@ -16,3 +16,11 @@ Syntax on how to create a table:
 * The ID is for indexing usually for storing each record and for mapping with other tables
 * Username (data column for users)
 * Password (for authentication)
+
+# Insert Records # 
+
+*Using the insert command (storing values in database):
+  * Insert into tablename(colnam1,colname2,colname3)  values(…..)
+    * Example:
+      *  insert into users(username,password,enabled) values('david','passwordtogointo',1);
+      *  insert into users(username,password,enabled) values('renchie','passwordtogointo',1);
