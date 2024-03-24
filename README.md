@@ -12,7 +12,7 @@ These types include:
 # Create Table #
 
 Syntax on how to create a table:
-CREATE TABLE users(id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT, enabled INTEGER);
-The ID is for indexing usually for storing each record and for mapping with other tables
-Username (data column for users)
-Password (for authentication)
+* CREATE TABLE users(id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT, enabled INTEGER);
+* The ID is for indexing usually for storing each record and for mapping with other tables
+* Username (data column for users)
+* Password (for authentication)
