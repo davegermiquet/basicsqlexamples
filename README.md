@@ -43,6 +43,6 @@ Syntax on how to create a table:
   * Selecting certain columns:
       * Select columnname where columnname = ‘value’;
       * select password from users where username = 'david';
-      results:
-         passwordtogointo
+      * results:
+        *  passwordtogointo
 
