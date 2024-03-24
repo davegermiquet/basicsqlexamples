@@ -24,3 +24,12 @@ Syntax on how to create a table:
     * Example:
       *  insert into users(username,password,enabled) values('david','passwordtogointo',1);
       *  insert into users(username,password,enabled) values('renchie','passwordtogointo',1);
+     
+ # Retrieval Values:
+
+* You retrieve values using select statements:
+  * All rows:
+     * Select * from table;
+     * Select * from users;
+       sqlite> Select * from users;
+    
