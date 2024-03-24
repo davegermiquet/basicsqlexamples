@@ -45,4 +45,10 @@ Syntax on how to create a table:
       * select password from users where username = 'david';
       * results:
         *  passwordtogointo
+       
+# Updating Records: #
+
+* update table set columnname = ‘value’ where columnname = ‘value’;
+   * Example:
+      * update users set password='blah' where username = 'david';
 
