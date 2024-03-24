@@ -52,3 +52,13 @@ Syntax on how to create a table:
    * Example:
       * update users set password='blah' where username = 'david';
 
+# Foreign Keys #
+
+* Foreign Keys allow relating multiple tables example:
+  * Syntax
+  * Create table tablename(id,value TYPE, forkeyid INTEGER, FOREIGN KEY(forkeyid) REFERENCES table(tableid));
+  * Examples:
+ 
+    * CREATE TABLE comments(id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT , userid INTEGER, FOREIGN KEY(userid) REFERENCES users(id));
+
+CREATE TABLE comments(id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT , userid INTEGER, FOREIGN KEY(userid) REFERENCES users(id));  
