@@ -62,3 +62,13 @@ Syntax on how to create a table:
     * CREATE TABLE comments(id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT , userid INTEGER, FOREIGN KEY(userid) REFERENCES users(id));
 
 CREATE TABLE comments(id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT , userid INTEGER, FOREIGN KEY(userid) REFERENCES users(id));  
+
+Sample of complex Foreign key mappings:
+
+* insert into comments(data,userid) values('MY COMMENTS',1);
+
+* More complex Select statement:
+
+* select u.username, c.data from users u, comments c where u.id = c.userid;
+* results: 
+* david|MY COMMENTS
