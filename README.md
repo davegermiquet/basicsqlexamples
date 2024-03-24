@@ -32,4 +32,17 @@ Syntax on how to create a table:
      * Select * from table;
      * Select * from users;
      * sqlite> Select * from users;
+   
+  *Specific rows using condition statement where:
+     * Select * from table where columname = ‘value’
+     * Select * from table where columname = number
+
+     * Select * from users where username = 'david';
+     * Select * from users where id = 1;
     
+  * Selecting certain columns:
+      * Select columnname where columnname = ‘value’;
+      * select password from users where username = 'david';
+      results:
+         passwordtogointo
+
